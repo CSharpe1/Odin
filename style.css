@@ -36,31 +36,40 @@
     width:20px; 
 }
 
-ul {
-  }
 li{
     display: inline;
 }
 
-#searchbar {
-    position: absolute;
-    top : 100px;
-    right: 50px;
-    margin: auto;
-
-
-section {
-  position: relative;
+#gimage {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+#searchbar {
+    position: absolute;
+    top : 35%;
+    left: 35%;
+    transform: translate();
+}
+
+#searchbar_buttons {
+    position: absolute;
+    top : 42%;
+    left: 35%;
+    transform: translate();
+}
+
+
 #navbar{
-    position: fixed;
+    position: absolute;
     top: 0px;
     width: 100%;
 }
 
 #footer{
-    position:fixed;
+    position: fixed;
     bottom:0px;
     width: 100%;
 }
