@@ -1,39 +1,16 @@
 <style>
-#search-text-input{
-    border-top:thin solid  #e5e5e5;
-    border-right:thin solid #e5e5e5;
-    border-bottom:0;
-    border-left:thin solid  #e5e5e5;
-    box-shadow:0px 1px 1px 1px #e5e5e5;
-    float:left;
-    height:17px;
-    margin:.8em 0 0 .5em; 
-    outline:0;
-    padding:.4em 0 .4em .6em; 
-    width:183px; 
-}
+  
 
-#top{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-#button-holder{
-    background-color:#f1f1f1;
-    border-top:thin solid #e5e5e5;
-    box-shadow:1px 1px 1px 1px #e5e5e5;
-    cursor:pointer;
-    float:left;
-    height:27px;
-    margin:11px 0 0 0;
-    text-align:center;
-    width:50px;
-}
-  
 #button-holder img{
     margin:4px;
     width:20px; 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
 }
 
 li{
@@ -47,31 +24,63 @@ li{
     transform: translate(-50%, -50%);
 }
 
-#searchbar {
-    position: absolute;
-    top : 35%;
-    left: 35%;
-    transform: translate();
-}
 
-#searchbar_buttons {
-    position: absolute;
-    top : 42%;
-    left: 35%;
-    transform: translate();
-}
-
-
-#navbar{
-    position: absolute;
-    top: 0px;
+.round {
     width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }
 
-#footer{
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+
+#left_nav
+ {
     position: fixed;
-    bottom:0px;
-    width: 100%;
-}
+    top: 0px;
+    left: 1%;
+ } 
+
+ #right_nav
+ {
+    position: fixed;
+    top: 0px;
+    right: 1%;
+ } 
+
+#left
+ {
+    position: fixed;
+    bottom: 0px;
+    left: 1%;
+ } 
+
+ #right
+ {
+    position: fixed;
+    bottom: 0px;
+    right: 1%;
+ } 
+
 
 </style>
